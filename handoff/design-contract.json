@@ -1,0 +1,341 @@
+{
+  "contractVersion": "1.0",
+  "status": "READY_WITH_CHANGES",
+  "sources": {
+    "uiDesign": {
+      "status": "accessible",
+      "url": "https://www.figma.com/design/Wfl80ma3KHVv9velWqou5V/Free-Figma-Admin-Dashboard-UI-Kit---Tailwind-Admin--Community-?node-id=1-4&p=f&t=a8nPXPoiRqKGGO2T-0",
+      "fileKey": "Wfl80ma3KHVv9velWqou5V",
+      "pageNodeId": "1:4",
+      "targetNodeId": "6319:41582",
+      "targetName": "Desktop/UserProfile",
+      "dimensions": {
+        "width": 1440,
+        "height": 972
+      },
+      "evidence": [
+        {
+          "sourceType": "ui_design",
+          "sourceUrl": "https://www.figma.com/design/Wfl80ma3KHVv9velWqou5V/Free-Figma-Admin-Dashboard-UI-Kit---Tailwind-Admin--Community-?node-id=6319-41582",
+          "figmaFileKey": "Wfl80ma3KHVv9velWqou5V",
+          "nodeId": "6319:41582",
+          "evidenceType": "design_context_and_render",
+          "certainty": "confirmed",
+          "note": "Target frame hierarchy, design-context code, and rendered screenshot were retrieved."
+        }
+      ]
+    },
+    "styleGuide": {
+      "status": "not_supplied",
+      "url": null,
+      "fileKey": null,
+      "nodeId": null
+    },
+    "designSystem": {
+      "status": "accessible",
+      "url": "https://www.figma.com/design/Wfl80ma3KHVv9velWqou5V/Free-Figma-Admin-Dashboard-UI-Kit---Tailwind-Admin--Community-?node-id=0-1&p=f&t=a8nPXPoiRqKGGO2T-0",
+      "fileKey": "Wfl80ma3KHVv9velWqou5V",
+      "pageNodeId": "0:1",
+      "inspectedSections": [
+        {
+          "nodeId": "17:2232",
+          "name": "Typography [Overview]",
+          "certainty": "confirmed",
+          "evidence": "Hierarchy, design context, rendered screenshot, and variable definitions retrieved."
+        },
+        {
+          "nodeId": "18:572",
+          "name": "Color Palette [Overview]",
+          "certainty": "confirmed",
+          "evidence": "Hierarchy, design context, rendered screenshot, and variable definitions retrieved."
+        }
+      ],
+      "completenessNote": "These are the two top-level overview sections present in the supplied Design System page hierarchy. This does not assert there are no other unpublished pages or external libraries."
+    }
+  },
+  "inspection": {
+    "status": "completed",
+    "mcpAccess": "successful",
+    "targetPlatform": {
+      "value": "Desktop",
+      "certainty": "confirmed",
+      "evidence": "Target frame is named Desktop/UserProfile."
+    },
+    "mobileScope": {
+      "value": null,
+      "certainty": "unknown",
+      "note": "No mobile User Profile frame or breakpoint specification was identified."
+    },
+    "certaintyValues": [
+      "confirmed",
+      "estimated",
+      "unknown"
+    ]
+  },
+  "design": {
+    "layout": {
+      "certainty": "confirmed",
+      "frame": {
+        "width": 1440,
+        "height": 972
+      },
+      "regions": {
+        "sidebar": {
+          "width": 268,
+          "height": 972
+        },
+        "main": {
+          "width": 1128,
+          "height": 972
+        },
+        "header": {
+          "width": 1128,
+          "height": 56
+        },
+        "banner": {
+          "height": 85,
+          "width": 1128
+        },
+        "profileSummary": {
+          "width": 1072,
+          "height": 72.78
+        },
+        "informationCards": {
+          "width": 552,
+          "height": 378,
+          "gap": 24
+        }
+      },
+      "contentGroups": [
+        "Personal Information",
+        "Address Details"
+      ]
+    },
+    "screenTypography": {
+      "certainty": "confirmed",
+      "systemFontFamily": "DM Sans",
+      "screenExamples": [
+        {
+          "element": "User Profile page title",
+          "family": "Plus Jakarta Sans",
+          "style": "SemiBold",
+          "sizePx": 18,
+          "lineHeight": "1.4",
+          "letterSpacingPx": -0.36,
+          "certainty": "confirmed",
+          "note": "Direct screen design-context evidence."
+        },
+        {
+          "element": "Information card heading",
+          "family": "DM Sans",
+          "style": "SemiBold",
+          "sizePx": 18,
+          "lineHeight": "1.4",
+          "certainty": "confirmed"
+        },
+        {
+          "element": "Profile summary name",
+          "family": "DM Sans",
+          "style": "SemiBold",
+          "sizePx": 16,
+          "certainty": "confirmed"
+        },
+        {
+          "element": "Navigation labels",
+          "family": "DM Sans",
+          "style": "Regular",
+          "sizePx": 14,
+          "certainty": "confirmed"
+        },
+        {
+          "element": "Profile values",
+          "family": "DM Sans",
+          "style": "Regular",
+          "sizePx": 14,
+          "certainty": "confirmed"
+        },
+        {
+          "element": "Profile field labels",
+          "family": "DM Sans",
+          "style": "Regular",
+          "sizePx": 12,
+          "certainty": "confirmed"
+        }
+      ],
+      "conflicts": [
+        "Screen title uses Plus Jakarta Sans while system overview documents DM Sans.",
+        "System variables also include a Body Small definition using Inter; its intended scope is unknown."
+      ]
+    },
+    "designSystemTypography": {
+      "certainty": "confirmed",
+      "family": "DM Sans",
+      "commonMetrics": {
+        "heroAndHeadingLineHeight": "120%",
+        "heroAndHeadingLetterSpacing": "-2%",
+        "bodyAndItalicLineHeight": "140%",
+        "bodyAndItalicLetterSpacing": "-2%",
+        "captionLineHeight": "140%",
+        "captionLetterSpacing": "6%"
+      },
+      "tokens": [
+        {"name":"Hero Text/H1","sizePx":56,"style":"Bold"},
+        {"name":"Hero Text/H2","sizePx":48,"style":"Bold"},
+        {"name":"Hero Text/H3","sizePx":40,"style":"Bold"},
+        {"name":"Hero Text/H4","sizePx":32,"style":"Bold"},
+        {"name":"Hero Text/H5","sizePx":24,"style":"Bold"},
+        {"name":"Hero Text/H6","sizePx":20,"style":"Bold"},
+        {"name":"Heading Text/H1","sizePx":40,"style":"Bold"},
+        {"name":"Heading Text/H2","sizePx":32,"style":"Bold"},
+        {"name":"Heading Text/H3","sizePx":24,"style":"Bold"},
+        {"name":"Heading Text/H4","sizePx":18,"style":"Bold"},
+        {"name":"Heading Text/H5","sizePx":16,"style":"Bold"},
+        {"name":"Heading Text/H6","sizePx":14,"style":"Bold"},
+        {"name":"Body Text/XL","sizePx":20,"style":"SemiBold"},
+        {"name":"Body Text/XL - Regular","sizePx":20,"style":"Regular"},
+        {"name":"Body Text/L","sizePx":18,"style":"SemiBold"},
+        {"name":"Body Text/L - Regular","sizePx":18,"style":"Regular"},
+        {"name":"Body Text/M","sizePx":16,"style":"SemiBold"},
+        {"name":"Body Text/M - Regular","sizePx":16,"style":"Regular"},
+        {"name":"Body Text/S","sizePx":14,"style":"SemiBold"},
+        {"name":"Body Text/S - Regular","sizePx":14,"style":"Regular"},
+        {"name":"Body Text/XS","sizePx":12,"style":"SemiBold"},
+        {"name":"Body Text/XS - Regular","sizePx":12,"style":"Regular"},
+        {"name":"Caption Text/Normal","sizePx":14,"style":"Medium"},
+        {"name":"Caption Text/Small","sizePx":12,"style":"Medium"},
+        {"name":"Italic Text/L - Bold","sizePx":18,"style":"Bold Italic"},
+        {"name":"Italic Text/L - Regular","sizePx":18,"style":"Italic"},
+        {"name":"Italic Text/S - Bold","sizePx":14,"style":"Bold Italic"},
+        {"name":"Italic Text/S - Regular","sizePx":14,"style":"Italic"},
+        {"name":"Italic Text/XS - Bold","sizePx":12,"style":"Bold Italic"},
+        {"name":"Italic Text/XS - Regular","sizePx":12,"style":"Italic"}
+      ],
+      "additionalToken": {
+        "name": "Body Small",
+        "family": "Inter",
+        "sizePx": 14,
+        "style": "Regular",
+        "certainty": "confirmed",
+        "scope": "unknown"
+      }
+    },
+    "designSystemColors": {
+      "certainty": "confirmed",
+      "palette": [
+        {"name":"Primary","hex":"#5D87FF","opacityVariants":["100%","10%"]},
+        {"name":"Secondary","hex":"#49BEFF","opacityVariants":["100%","10%"]},
+        {"name":"Success","hex":"#13DEB9","opacityVariants":["100%","10% light"]},
+        {"name":"Info","hex":"#539BFF","opacityVariants":["100%","10% light"]},
+        {"name":"Warning","hex":"#FFAE1F","opacityVariants":["100%","10% light"]},
+        {"name":"Danger","hex":"#FA896B","opacityVariants":["100%","10% light"]},
+        {"name":"Black","hex":"#2A3547","opacityVariants":["100%","80%","60%","40%","20%","10%","5%"]},
+        {"name":"White","hex":"#FFFFFF","opacityVariants":["100%","80%","60%","40%","20%","10%","5%"]}
+      ],
+      "shadow": {
+        "type": "DROP_SHADOW",
+        "color": "#466DAE14",
+        "offset": {"x": 0, "y": 4},
+        "radius": 5,
+        "spread": 0
+      },
+      "note": "Opacity levels are documented in the palette. Variable definitions expose base hex values; no derived hex colors are invented."
+    },
+    "componentsAndAssets": {
+      "confirmedInstances": [
+        {"name":"Sidebar","nodeId":"6319:41687"},
+        {"name":"Header","nodeId":"6339:11962"}
+      ],
+      "reuseCandidates": [
+        "Profile summary",
+        "Information card",
+        "Edit button",
+        "Social icon link"
+      ],
+      "assets": [
+        "Tailwindadmin wordmark",
+        "User avatar",
+        "Banner illustration",
+        "Sidebar and header icons",
+        "Social icons",
+        "Edit icons"
+      ],
+      "libraryLinkage": {
+        "value": null,
+        "certainty": "unknown",
+        "note": "No master/library relationship between the screen instances and the design-system page was established."
+      }
+    },
+    "interaction": {
+      "visibleAffordances": [
+        "Sidebar navigation and disclosure controls",
+        "Header search, upgrade, theme, notifications, and avatar",
+        "Four social links",
+        "Personal Information Edit button",
+        "Address Details Edit button",
+        "Power/logout affordance"
+      ],
+      "behavior": null,
+      "certainty": "unknown"
+    },
+    "responsive": {
+      "desktopFrame": {"width":1440,"height":972,"certainty":"confirmed"},
+      "mobileProfileFrame": null,
+      "breakpoints": null,
+      "certainty": "unknown"
+    },
+    "charts": {
+      "present": false,
+      "certainty": "confirmed",
+      "note": "No chart is present in Desktop/UserProfile."
+    }
+  },
+  "findings": [
+    {
+      "id":"HND-P1-001",
+      "priority":"P1",
+      "area":"Desktop/UserProfile title 6319:41589 and Typography overview 17:2232",
+      "issue":"The page title uses Plus Jakarta Sans while the system typography is DM Sans; an additional Body Small token references Inter.",
+      "evidence":"Direct screen design-context font declarations and design-system typography variable definitions.",
+      "certainty":"confirmed",
+      "implementationImpact":"Font choice affects visual fidelity and consistency.",
+      "recommendedDesignerAction":"Confirm whether Plus Jakarta Sans is an intentional title override and clarify the scope of the Inter Body Small token.",
+      "timing":"Before visual sign-off."
+    },
+    {
+      "id":"HND-P1-002",
+      "priority":"P1",
+      "area":"Desktop/UserProfile 6319:41582",
+      "issue":"Actions and navigation affordances have no documented behavior.",
+      "evidence":"Static screenshot and node hierarchy; no prototype/interaction notes supplied.",
+      "certainty":"confirmed",
+      "implementationImpact":"Functional behavior requires product assumptions.",
+      "recommendedDesignerAction":"Provide control behavior or confirm visual-only scope.",
+      "timing":"Before implementing affected interactions."
+    },
+    {
+      "id":"HND-P2-001",
+      "priority":"P2",
+      "area":"Desktop/UserProfile 6319:41582",
+      "issue":"Mobile scope and responsive rules are not supplied.",
+      "evidence":"Desktop target frame only; no mobile User Profile frame identified.",
+      "certainty":"confirmed",
+      "implementationImpact":"No impact on desktop-only implementation; mobile support would require design direction.",
+      "recommendedDesignerAction":"Confirm desktop-only or supply the mobile profile frame.",
+      "timing":"Before adding mobile support."
+    }
+  ],
+  "engineeringBoundary": {
+    "designDefined": [
+      "Desktop frame composition, layout, and example content",
+      "Typography/color system catalogs and explicit screen styling",
+      "Visible asset placement and control affordances"
+    ],
+    "engineeringDefined": [
+      "APIs, profile data semantics, persistence, authentication/authorization",
+      "Edit flow, validation rules, navigation destinations, and social-link destinations"
+    ],
+    "recommendedOnly": [
+      "React boundaries, data separation, and CSS layout guidance in implementation-blueprint.md"
+    ]
+  }
+}
